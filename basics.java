@@ -68,7 +68,7 @@ class Main {
 
 
         // logical operators
-        int age = 25;
+        // int age = 25;
         boolean isStudent = false;
         boolean isLibraryMember = true;
 
@@ -78,7 +78,7 @@ class Main {
         // &&
         // if left equation of logical operator AND righ side of logical
         // operator is true, the output will be, true; else false
-        System.out.println(age >= 18 && age <= 40);
+        // System.out.println(age >= 18 && age <= 40);
 
         // ||
         // left OR right side of logical operator is true returns true; else false
@@ -119,17 +119,17 @@ class Main {
 
 
 
-        // strings - a sequence of characters
+        // declaring strings - a sequence of characters
 
         // declaring a new string - literal
-        String name = "Tyrah";
+        String myName = "Tyrah";
 
-        System.out.println(name);
+        System.out.println(myName);
 
         // declaring a string - new keyword
         // new key word creates new objects from classes
 
-        String twin = new String ("Aliyah");
+        // String twin = new String ("Aliyah");
 
         // the jvm, java virtual machine uses a portion of the computer's
         // memory to store strings
@@ -149,9 +149,22 @@ class Main {
         // new keyword; returns false; new variable assigned to same value
         System.out.println(objectString1 == objectString2);
 
+        // prefer to use literal; compiler can optimize code better
 
 
 
+
+
+
+        // string formatting
+
+        System.out.println("Hello world! I'm Aliyah and I'm from Puyallup, WA and I'm 27 years old");
+
+        String name = "Aliyah";
+        String city = "Puyallup";
+        int age = 27;
+
+        System.out.println("Hello world! I am " + name + ". I am from " + city + " and I am " + age + " years old.");
 
 
 
