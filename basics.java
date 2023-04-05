@@ -156,15 +156,27 @@ class Main {
 
 
 
-        // string formatting
+        // string concatenation
 
         System.out.println("Hello world! I'm Aliyah and I'm from Puyallup, WA and I'm 27 years old");
 
         String name = "Aliyah";
         String city = "Puyallup";
         int age = 27;
+        String company = "Sonic";
 
         System.out.println("Hello world! I am " + name + ". I am from " + city + " and I am " + age + " years old.");
+
+
+        // string formatting
+        // format specifiers - %s == string; %d == number;
+
+        String formattedString = String.format("My name is %s. I am from %s. I am %d years old. I work for %s.", name, city, age, company);
+
+        System.out.println(formattedString);
+
+
+
 
 
 
