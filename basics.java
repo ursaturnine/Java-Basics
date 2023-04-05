@@ -66,6 +66,30 @@ class Main {
 
 
 
+
+        // logical operators
+        int age = 25;
+        boolean isStudent = false;
+        boolean isLibraryMember = true;
+
+        // age >= 18
+        // age <= 40
+
+        // &&
+        // if left equation of logical operator AND righ side of logical
+        // operator is true, the output will be, true; else false
+        System.out.println(age >= 18 && age <= 40);
+
+        // ||
+        // left OR right side of logical operator is true returns true; else false
+        System.out.println(isStudent || isLibraryMember);
+
+        // ! - the 'not' operator reverses the boolean value
+        // reverse the operator of an entire && or || operation 
+        System.out.println(!isStudent);
+
+
+
     }
 
 }
