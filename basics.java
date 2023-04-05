@@ -164,16 +164,24 @@ class Main {
         String city = "Puyallup";
         int age = 27;
         String company = "Sonic";
+        double gpa = 3.8;
 
         System.out.println("Hello world! I am " + name + ". I am from " + city + " and I am " + age + " years old.");
 
 
         // string formatting
-        // format specifiers - %s == string; %d == number;
+        // format specifiers - %s == string; %d == number; %f == float;
 
         String formattedString = String.format("My name is %s. I am from %s. I am %d years old. I work for %s.", name, city, age, company);
 
         System.out.println(formattedString);
+
+        String myGPA = String.format("My GPA is %f", gpa);
+
+        System.out.println(myGPA);
+
+
+
 
 
 
