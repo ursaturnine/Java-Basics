@@ -119,6 +119,42 @@ class Main {
 
 
 
+        // strings - a sequence of characters
+
+        // declaring a new string - literal
+        String name = "Tyrah";
+
+        System.out.println(name);
+
+        // declaring a string - new keyword
+        // new key word creates new objects from classes
+
+        String twin = new String ("Aliyah");
+
+        // the jvm, java virtual machine uses a portion of the computer's
+        // memory to store strings
+        // creating a string in a virtual string, java first checks if the string 
+        // already exists in the memory or not, else java uses value with new variable
+        // w/ new keyword, java creates a new variable with value whether the string exists or not
+
+
+        String literalString1 = "abc";
+        String literalString2 = "abc";
+
+        String objectString1 = new String("xyz");
+        String objectString2 = new String("xyz");
+
+        // literal format; returns true; new variable assigned to same value
+        System.out.println(literalString1 == literalString2);
+        // new keyword; returns false; new variable assigned to same value
+        System.out.println(objectString1 == objectString2);
+
+
+
+
+
+
+
     }
 
 }
