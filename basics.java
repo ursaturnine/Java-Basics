@@ -41,10 +41,16 @@ class Main {
         // remainder (modulo/modulus)
         System.out.println(number1 % number2); // 0
 
+
+
+
         // relational operatiors
 
         // is equal to
         System.out.println(number1 == number2);
+
+        // is not equal to
+        System.out.println(number1 != number2);
 
         // is greater than
         System.out.println(number1 > number2);
