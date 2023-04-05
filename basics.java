@@ -90,6 +90,35 @@ class Main {
 
 
 
+
+        // ternary operators
+        int score = 0;
+        int turns = 10;
+        
+        // adds 2
+        score += 2;
+
+        // adds 1
+        score++;
+
+        // decrease by 1
+        turns--;
+
+        // ternary operators and the compiler
+        int number = 55;
+        System.out.println(number++);
+        System.out.println(number);
+
+        // when compiler reads code, it goes from left to right
+        // so, it readsy "System.out.println(number...)", when the compiler sees 'number',
+        // it immediately prints out the value store in number which is 55
+
+        // compiler will increase the value FIRST then print out the newly incremented number
+        System.out.println(++number);
+
+
+
+
     }
 
 }
