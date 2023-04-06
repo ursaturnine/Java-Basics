@@ -248,7 +248,20 @@ class Main {
 
         String scannerName = scanner.nextLine();
 
-        System.out.println(scannerName);
+
+        // printf method - let's you use format specifiers in print method
+        System.out.printf("Hello %s! How old are you? ", scannerName);
+
+        // nextLine() - can ask for different types
+        int scannerAge = scanner.nextInt();
+
+        // remove 'enter' space from scanner
+        scanner.nextLine();
+
+        System.out.printf("%d is an excellent age to start programming! What language do you want to learn? ", scannerAge);
+        String scannerLanguage = scanner.nextLine();
+
+        System.out.printf("%s is a great langauge to learn!", scannerLanguage);
 
         // close scanner to prevent memory leaks
         scanner.close();
