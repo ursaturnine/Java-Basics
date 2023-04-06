@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Main {
     public static void main(String[] args) {
         // integer types
@@ -220,7 +222,43 @@ class Main {
 
 
         // replace part of a string - doesn't mutate the string
+        // can also save this to a variable for later use since it doesn't mutate the string
         System.out.println(skyBlue.replace("blue", "red"));
+
+
+        // check if a string contains a subsequence - returns true
+        System.out.println(skyBlue.contains("sky"));
+
+
+
+
+        
+
+        //User Input - accepting different types of input from the user
+        // need a scanner object first - using new keyword
+        // System.in - getting input from the console
+        // import Scanner object - import java.util.Scanner - at top of file
+
+        Scanner scanner = new Scanner(System.in);
+
+        // use print method instead of println - now newline character after end of line
+        System.out.print("What is your name? ");
+        // nextLine() - takes string as input from user; have to save this input somewhere
+        // scanner.nextLine();
+
+        String scannerName = scanner.nextLine();
+
+        System.out.println(scannerName);
+
+        // close scanner to prevent memory leaks
+        scanner.close();
+
+
+
+
+
+
+
 
 
 
