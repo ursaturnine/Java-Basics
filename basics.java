@@ -186,6 +186,10 @@ class Main {
         // string methods
 
         String anotherName = "Peyton";
+        String anotherName2 = "Peyton";
+        String aString = new String("hi");
+        String aString2 = new String("hi");
+        String skyBlue = "The sky is blue";
 
         // check length of string
         System.out.println(anotherName.length());
@@ -202,8 +206,21 @@ class Main {
         System.out.println(anotherName.toLowerCase());
 
 
+        // check equality of strings; returns true
+        System.out.println(anotherName.equals(anotherName2));
+
+        // ignore case method - returns true
+        System.out.println(aString.equalsIgnoreCase(aString2));
+
+        // using new keyword; returns false using logical operator
+        System.out.println(aString == aString2);
+
+        // using new keyword; returns true using equals() string method
+        System.out.println(aString.equals(aString2));
 
 
+        // replace part of a string - doesn't mutate the string
+        System.out.println(skyBlue.replace("blue", "red"));
 
 
 
