@@ -170,7 +170,7 @@ class Main {
 
 
         // string formatting
-        // format specifiers - %s == string; %d == number; %f == float;
+        // format specifiers - %s == string; %d == number; %f == float; %b == boolean
 
         String formattedString = String.format("My name is %s. I am from %s. I am %d years old. I work for %s.", name, city, age, company);
 
@@ -181,6 +181,25 @@ class Main {
         System.out.println(myGPA);
 
 
+
+
+        // string methods
+
+        String anotherName = "Peyton";
+
+        // check length of string
+        System.out.println(anotherName.length());
+
+        // check if the string is empty; boolean 
+        System.out.println(anotherName.isEmpty());
+
+        // string to uppercase
+        System.out.println(anotherName.toUpperCase());
+        // toUpperCase() doesn't mutate the string
+        System.out.println(anotherName);
+
+        // string to lowercase
+        System.out.println(anotherName.toLowerCase());
 
 
 
