@@ -268,9 +268,24 @@ class Main {
 
 
 
-        // conditional statements
+        // instantiating arrays
+
+        // array of chars
+        // add square brackets after variable name
+        // use new keyword
+        // add square brackets with length of array within brackets
+        char vowels[] = new char[5];
 
 
+        // insert a new character in chars array
+        // array variable followed by square brackets
+        // include the index where char is to be added within square brackets
+        // assign a value
+        vowels[0] = 'a';
+        vowels[1] = 'e';
+        vowels[2] = 'i';
+        vowels[3] = 'o';
+        vowels[4] = 'u';
 
 
 
