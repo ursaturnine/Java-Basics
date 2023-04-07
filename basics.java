@@ -354,6 +354,10 @@ class Main {
         System.out.println(Arrays.toString(copyNameCsRange));
 
 
+        // check equality of og array w/ copied array (reference type; don't use "==", use "equals" method)
+        System.out.println(Arrays.equals(nameConsonants, copyNameCs));
+
+
 
 
 
