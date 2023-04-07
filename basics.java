@@ -320,6 +320,11 @@ class Main {
         int foundItemIndex = Arrays.binarySearch(vowles, key);
         System.out.println(foundItemIndex);
 
+        // can also perform binary search in a range..
+        int foundItemInRangeIndex = Arrays.binarySearch(vowles, startingIndex,endingIndex,key);
+        System.out.println(foundItemInRangeIndex);
+
+
 
         // sort an array - mutates array
         Arrays.sort(vowles);
