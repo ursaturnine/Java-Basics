@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 class Main {
     public static void main(String[] args) {
@@ -268,6 +269,11 @@ class Main {
 
 
 
+
+
+
+
+
         // instantiating arrays
 
         // array of chars
@@ -286,6 +292,19 @@ class Main {
         vowels[2] = 'i';
         vowels[3] = 'o';
         vowels[4] = 'u';
+
+        // this will print, 'i', to the console
+        System.out.println(vowels[2]);
+
+        // how to print out entire array?
+        // have to convert to string before printing
+        System.out.println(Arrays.toString(vowels));
+
+        //define an array in one line
+        char vowles[] = {'a', 'e', 'i', 'o', 'u'};
+        System.out.println(Arrays.toString(vowles));
+
+
 
 
 
