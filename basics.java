@@ -263,6 +263,7 @@ class Main {
         String scannerLanguage = scanner.nextLine();
 
         System.out.printf("%s is a great langauge to learn!", scannerLanguage);
+        scanner.nextLine();
 
         // close scanner to prevent memory leaks
         scanner.close();
@@ -303,6 +304,15 @@ class Main {
         //define an array in one line
         char vowles[] = {'a', 'e', 'i', 'o', 'u'};
         System.out.println(Arrays.toString(vowles));
+
+        // get length of an array
+        System.out.println(vowles.length);
+
+
+        // sort an array
+        Arrays.sort(vowles);
+        System.out.println(Arrays.toString(vowles));
+    
 
 
 
