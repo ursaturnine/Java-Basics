@@ -332,6 +332,12 @@ class Main {
 
 
 
+        // method to insert a certain value into an array
+        char nameConsonants[] = new char[5];
+        Arrays.fill(nameConsonants, 't');
+
+
+
     
 
 
