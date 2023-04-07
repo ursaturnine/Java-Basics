@@ -343,14 +343,9 @@ class Main {
         Arrays.fill(nameConsonants, startIndx, endIndx, '<');
 
 
-        // 
-
-
-
-    
-
-
-
+        // copy an array - variables pointing to two separate but equal values
+        char copyNameCs[] = Arrays.copyOf(nameConsonants, 5);
+        System.out.println(Arrays.toString(copyNameCs));
 
 
 
