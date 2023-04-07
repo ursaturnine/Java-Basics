@@ -308,10 +308,18 @@ class Main {
         // get length of an array
         System.out.println(vowles.length);
 
+        // sorting a range of positions - range is non-inclusive
+        int startingIndex = 1;
+        int endingIndex = 4;
+        // Arrays.sort(vowles, startingIndex, endingIndex);
 
-        // sort an array
+
+        // sort an array - mutates array
         Arrays.sort(vowles);
         System.out.println(Arrays.toString(vowles));
+
+
+
     
 
 
