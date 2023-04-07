@@ -337,6 +337,15 @@ class Main {
         Arrays.fill(nameConsonants, 't');
 
 
+        // fill array in a range
+        int startIndx = 1;
+        int endIndx = 4;
+        Arrays.fill(nameConsonants, startIndx, endIndx, '<');
+
+
+        // 
+
+
 
     
 
