@@ -347,6 +347,12 @@ class Main {
         char copyNameCs[] = Arrays.copyOf(nameConsonants, 5);
         System.out.println(Arrays.toString(copyNameCs));
 
+        // copy a range of an array
+        int sIndx = 0;
+        int eIndx = 4;
+        char copyNameCsRange[] = Arrays.copyOfRange(copyNameCs, sIndx, eIndx);
+        System.out.println(Arrays.toString(copyNameCsRange));
+
 
 
 
