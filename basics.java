@@ -313,6 +313,13 @@ class Main {
         int endingIndex = 4;
         // Arrays.sort(vowles, startingIndex, endingIndex);
 
+        // binary search on array
+
+        char key = 'o';
+        // returns the index of given key
+        int foundItemIndex = Arrays.binarySearch(vowles, key);
+        System.out.println(foundItemIndex);
+
 
         // sort an array - mutates array
         Arrays.sort(vowles);
