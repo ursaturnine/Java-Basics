@@ -448,6 +448,9 @@ class Main {
         // toString() present in all reference types
         System.out.println(animals.toString());
 
+        // print out single value from ArrayList with get() method - takes ints as arguments
+        System.out.println(animals.get(0));
+
 
 
 
