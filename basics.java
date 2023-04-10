@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
+import java.util.ArrayList;
 
 class Main {
     public static void main(String[] args) {
@@ -424,6 +425,28 @@ class Main {
         } while (mlt <= 10);
 
 
+
+
+
+
+        // ArrayList - dynamic array
+        // ArrayList<data_type> <array_name>
+        // new ArrayList<data_type>();
+        ArrayList<String> animals = new ArrayList<String>();
+
+        // change primitive type to a reference type with a wrapper class
+        // <Integer> is the reference type for of int primitive type
+        // Double, Float, Boolean etc.
+        // Can't use primitive types with ArrayList; have to use wrapper list
+
+        // insert new item into an ArrayList with add() method;
+
+        animals.add("Pink Flamingo");
+        animals.add("Orange Tiger");
+        animals.add("Green Alligator");
+
+        // toString() present in all reference types
+        System.out.println(animals.toString());
 
 
 
