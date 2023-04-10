@@ -375,7 +375,7 @@ class Main {
         }
 
         // loop over array 
-        int letters[] = {'a', 'b', 'c', 'd', 'e', 'f'};
+        char letters[] = {'a', 'b', 'c', 'd', 'e', 'f'};
 
         for (int indx = 0; indx < letters.length; indx++) {
             System.out.println(letters[indx]);
@@ -390,6 +390,14 @@ class Main {
                 System.out.printf("%d X %d = %d \n", number, mult, mult * ltr);
             }
         }
+
+
+
+        // for loop over a collection
+        for (char ltr : letters) {
+            System.out.println(ltr);
+        }
+
 
 
 
