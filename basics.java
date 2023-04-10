@@ -414,9 +414,14 @@ class Main {
         }
 
 
-        
+        // do while loop
+        // do <loop_body>
+        // while <condition>; condition is checked last
+        do {
+            System.out.printf("%d X %d = %d", nmbr, mlt, nmbr * mlt);
 
-
+            mlt++;
+        } while (mlt <= 10);
 
 
 
