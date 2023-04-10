@@ -457,6 +457,10 @@ class Main {
         System.out.println(animals.toString());
 
 
+        // remove elements by value from ArrayList
+        animals.remove(String.valueOf("Pink Flamingo"));
+
+
 
 
 
