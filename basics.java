@@ -452,6 +452,11 @@ class Main {
         System.out.println(animals.get(0));
 
 
+        // remove elements from an ArrayList by index
+        animals.remove(2);
+        System.out.println(animals.toString());
+
+
 
 
 
