@@ -357,6 +357,25 @@ class Main {
         // check equality of og array w/ copied array (reference type; don't use "==", use "equals" method)
         System.out.println(Arrays.equals(nameConsonants, copyNameCs));
 
+        // like comparing primitive types to reference types, comparing arrays, (two reference types), is different;
+        // equals() will return false between OG array and copied arrray 
+
+
+
+
+
+        // Loops - repeating instructions
+
+        // for loop
+        // int aNumber = 1 <=== initialization
+        // number <= 1- <=== condition
+        // number++ <=== update; runs after loop body
+        for (int aNumber = 1; number <= 10; number++) {
+            System.out.println(aNumber);
+        }
+
+
+
 
 
 
