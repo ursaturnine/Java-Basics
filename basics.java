@@ -394,12 +394,27 @@ class Main {
 
 
         // for loop over a collection
+        // accesses elements in char array, 'letters', directly w/o indexing first
         for (char ltr : letters) {
             System.out.println(ltr);
         }
 
 
+        // while loop
+        int nmbr = 5;
+        int mlt = 1;
 
+
+        // while <condition>
+        // update loop var in the body
+        while(mlt <= 10) {
+            System.out.printf("%d X %d = %d", nmbr, mlt, nmbr * mlt);
+
+            mlt++;
+        }
+
+
+        
 
 
 
