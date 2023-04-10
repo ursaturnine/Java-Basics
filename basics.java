@@ -374,6 +374,25 @@ class Main {
             System.out.println(aNumber);
         }
 
+        // loop over array 
+        int letters[] = {'a', 'b', 'c', 'd', 'e', 'f'};
+
+        for (int indx = 0; indx < letters.length; indx++) {
+            System.out.println(letters[indx]);
+        }
+
+
+        // nested for loop
+        // variables in outer loop are accessible in inner loop
+        // can't access variables in inner loop from outer loop
+        for (int ltr = 1; ltr < letters.length; ltr++){
+            for (int mult = 1; mult < 10; mult++){
+                System.out.printf("%d X %d = %d \n", number, mult, mult * ltr);
+            }
+        }
+
+
+
 
 
 
