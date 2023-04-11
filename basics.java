@@ -1,7 +1,9 @@
+// Collections
 import java.util.Scanner;
 import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.HashMap;
 
 class Main {
     public static void main(String[] args) {
@@ -498,9 +500,36 @@ class Main {
 
         // for each loop - looping over ArrayList
         animals.forEach(animal -> {
+            // indexOf returns index by element given
             animals.set(animals.indexOf(animal), "Purple");
         });
         System.out.println(animals.toString());
+
+
+
+
+
+
+        // Hashmaps - key value pairs (like dictionaries in Python)
+        // HashMap <type_of_key, type_of_value>
+        HashMap<String, Integer> examScores = new HashMap<String, Integer>();
+
+
+        // put() insert into HashMap - unordered
+        examScores.put("Math", 75);
+        examScores.put("Sociology", 85);
+        examScores.put("English", 100);
+        examScores.put("Bengali", 79);
+        examScores.put("Computer Science", 100);
+
+        // output HashMap to console
+        // output ==> {English=100, Sociology=85, Math=75}
+        System.out.println(examScores.toString());
+
+
+
+
+
 
 
 
