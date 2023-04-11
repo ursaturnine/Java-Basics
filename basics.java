@@ -498,8 +498,9 @@ class Main {
 
         // for each loop - looping over ArrayList
         animals.forEach(animal -> {
-            System.out.println(animal);
+            animals.set(animals.indexOf(animal), "Purple");
         });
+        System.out.println(animals.toString());
 
 
 
