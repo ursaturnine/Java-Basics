@@ -460,6 +460,15 @@ class Main {
         // remove elements by value from ArrayList
         animals.remove(String.valueOf("Pink Flamingo"));
 
+        // clear entire ArrayList
+        // animals.clear();
+
+        // update an element in an ArrayList with set()
+        // set() takes an index -integer, <element to replace with>, 
+        animals.set(0, String.valueOf("Pink Elephant"));
+        System.out.println(animals.toString());
+        
+
 
 
 
