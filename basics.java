@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 import java.util.ArrayList;
+import java.util.Comparator;
 
 class Main {
     public static void main(String[] args) {
@@ -466,8 +467,18 @@ class Main {
         // update an element in an ArrayList with set()
         // set() takes an index -integer, <element to replace with>, 
         animals.set(0, String.valueOf("Pink Elephant"));
+        animals.add("Green Bear");
         System.out.println(animals.toString());
-        
+
+        // sort ArrayList - mutates ArrayList
+        // takes a comparator
+        animals.sort(Comparator.naturalOrder());
+
+        System.out.println(animals.toString());
+
+        // sorts in reverse order
+        // animals.sort(Comparator.reverseOrder());
+
 
 
 
