@@ -420,7 +420,7 @@ class Main {
         // do <loop_body>
         // while <condition>; condition is checked last
         do {
-            System.out.printf("%d X %d = %d", nmbr, mlt, nmbr * mlt);
+            System.out.printf("%d X %d = %d \n", nmbr, mlt, nmbr * mlt);
 
             mlt++;
         } while (mlt <= 10);
@@ -478,6 +478,26 @@ class Main {
 
         // sorts in reverse order
         // animals.sort(Comparator.reverseOrder());
+
+
+        // ArrayList helpful methods
+
+        // size() - number of elements in an ArrayList
+        System.out.println(animals.size());
+
+        // contains() - checks if arraylist contains certain value
+        System.out.println(animals.contains(String.valueOf("Pink Elephant")));
+
+        // isEmpty() - checks if arraylist has elements
+        // returns boolean
+        System.out.println(animals.isEmpty());
+
+
+
+
+
+        // for each loop
+
 
 
 
