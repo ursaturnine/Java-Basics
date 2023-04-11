@@ -548,6 +548,23 @@ class Main {
         // check length of keys
         examScores.size();
 
+        // remove a key
+        examScores.remove("Sociology");
+
+        // check for membership via key
+        System.out.println(examScores.containsKey("English"));
+
+        // check for membership via value
+        System.out.println(examScores.containsValue(Integer.valueOf(100)));
+
+        // check if hasmap is empty
+        System.out.println(examScores.isEmpty());
+
+        // loop through HashMap
+        examScores.forEach((subject, grade) -> {
+            System.out.println(subject + "- " + grade);
+        });
+
 
 
 
