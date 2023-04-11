@@ -527,6 +527,28 @@ class Main {
         System.out.println(examScores.toString());
 
 
+        // print one value from HashMap via key
+        System.out.println(examScores.get("English"));
+
+        // check for membership and overwrite if false
+        // will not overwrite if key exists
+        examScores.putIfAbsent("Math", 70);
+        System.out.println(examScores.toString());
+
+        // overwrite a value
+        examScores.replace("Math", 70);
+
+
+        // get or default 
+        System.out.println(examScores.getOrDefault("Religion", -1));
+
+        // empty entire HashMap
+        // examScores.clear();
+
+        // check length of keys
+        examScores.size();
+
+
 
 
 
