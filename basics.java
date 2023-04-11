@@ -566,6 +566,13 @@ class Main {
         });
 
 
+        // loop through HashMap and update value of subject
+        examScores.forEach((subject, grade) -> {
+            examScores.replace(subject, grade - 10);
+            System.out.println(examScores.toString());
+        });
+
+
 
 
 
