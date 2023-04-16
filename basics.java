@@ -582,11 +582,16 @@ class Main {
 
         // Object Oriented Programming - modeling software around real-world objects
         User youngerUser = new User();
+        User olderUser = new User();
 
-        youngerUser.name = "Tyrah G";
+        olderUser.name = "Vanessa";
+        olderUser.birthDay = LocalDate.parse("1994-05-05");
+
+        youngerUser.name = "Tyrah";
         youngerUser.birthDay = LocalDate.parse("1996-01-28");
 
         System.out.printf("%s was born back in %s and she is now %d years old", youngerUser.name, youngerUser.birthDay.toString(), youngerUser.age());
+        System.out.printf("%s was born back in %s and she is now %d years old", olderUser.name, olderUser.birthDay.toString(), olderUser.age());
 
 
 
