@@ -586,7 +586,9 @@ class Main {
         youngerUser.name = "Tyrah G";
         youngerUser.birthDay = LocalDate.parse("1996-01-28");
 
-        System.out.printf("%s was born back in %s", youngerUser.name, youngerUser.birthDay.toString());
+        System.out.printf("%s was born back in %s and she is now %d years old", youngerUser.name, youngerUser.birthDay.toString(), youngerUser.age());
+
+
 
 
 
