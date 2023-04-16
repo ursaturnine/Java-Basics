@@ -588,14 +588,17 @@ class Main {
         book.title = "Limitless";
         book.author = "Jeanna Smialek";
 
+        youngerUser.borrow(book);
+
         olderUser.name = "Vanessa";
         olderUser.birthDay = LocalDate.parse("1994-05-05");
 
         youngerUser.name = "Tyrah";
         youngerUser.birthDay = LocalDate.parse("1996-01-28");
 
-        System.out.printf("%s was born back in %s and she is now %d years old", youngerUser.name, youngerUser.birthDay.toString(), youngerUser.age());
-        System.out.printf("%s was born back in %s and she is now %d years old", olderUser.name, olderUser.birthDay.toString(), olderUser.age());
+        System.out.printf("%s was born back in %s and she is now %d years old\n", youngerUser.name, youngerUser.birthDay.toString(), youngerUser.age());
+        System.out.printf("%s was born back in %s and she is now %d years old\n", olderUser.name, olderUser.birthDay.toString(), olderUser.age());
+        System.out.printf("%s has borrowed these books: %s\n", youngerUser.name, youngerUser.books.toString());
 
 
 
