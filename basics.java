@@ -596,9 +596,9 @@ class Main {
         // youngerUser.name = "Tyrah";
         // youngerUser.birthDay = LocalDate.parse("1996-01-28");
 
-        System.out.printf("%s was born back in %s and she is now %d years old\n", youngerUser.name, youngerUser.birthDay.toString(), youngerUser.age());
-        System.out.printf("%s was born back in %s and she is now %d years old\n", olderUser.name, olderUser.birthDay.toString(), olderUser.age());
-        System.out.printf("%s has borrowed these books: %s\n", youngerUser.name, youngerUser.books.toString());
+        System.out.printf("%s was born back in %s and she is now %d years old\n", youngerUser.getName(), youngerUser.getBirthDay().toString(), youngerUser.age());
+        System.out.printf("%s was born back in %s and she is now %d years old\n", olderUser.getName(), olderUser.getBirthDay().toString(), olderUser.age());
+        System.out.printf("%s has borrowed these books: %s\n", youngerUser.getName(), youngerUser.books.toString());
 
 
 
