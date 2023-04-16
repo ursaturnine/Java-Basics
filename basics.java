@@ -583,6 +583,10 @@ class Main {
         // Object Oriented Programming - modeling software around real-world objects
         User youngerUser = new User();
         User olderUser = new User();
+        Book book = new Book();
+
+        book.title = "Limitless";
+        book.author = "Jeanna Smialek";
 
         olderUser.name = "Vanessa";
         olderUser.birthDay = LocalDate.parse("1994-05-05");
