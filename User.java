@@ -6,7 +6,7 @@ public class User {
     // properties - public == can be accessed outside of User class
     private String name;
     private LocalDate birthDay;
-    public ArrayList<Book> books = new ArrayList<Book>();
+    private ArrayList<Book> books = new ArrayList<Book>();
 
     // constructor
     User(String name, String birtDay) {
@@ -22,6 +22,13 @@ public class User {
     public String getBirthDay(){
         return this.birthDay.toString();
     }
+
+    //
+    public String borrowedBooks(){
+        return this.books.toString();
+    }
+
+
 
     // calculate age from birth date
     // access level; return type; name of method; 

@@ -583,10 +583,10 @@ class Main {
         // Object Oriented Programming - modeling software around real-world objects
         User youngerUser = new User("Tyrah", "1996-01-28" );
         User olderUser = new User("Vanessa", "1994-05-05");
-        Book book = new Book();
+        Book book = new Book("Limitless", "Jeanna Smialek");
 
-        book.title = "Limitless";
-        book.author = "Jeanna Smialek";
+        // book.title = "Limitless";
+        // book.author = "Jeanna Smialek";
 
         youngerUser.borrow(book);
 
@@ -598,7 +598,7 @@ class Main {
 
         System.out.printf("%s was born back in %s and she is now %d years old\n", youngerUser.getName(), youngerUser.getBirthDay().toString(), youngerUser.age());
         System.out.printf("%s was born back in %s and she is now %d years old\n", olderUser.getName(), olderUser.getBirthDay().toString(), olderUser.age());
-        System.out.printf("%s has borrowed these books: %s\n", youngerUser.getName(), youngerUser.books.toString());
+        System.out.printf("%s has borrowed these books: %s\n", youngerUser.getName(), youngerUser.borrowedBooks().toString());
 
 
 
