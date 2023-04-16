@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
+import java.time.LocalDate;
 
 class Main {
     public static void main(String[] args) {
@@ -580,7 +581,12 @@ class Main {
 
 
         // Object Oriented Programming - modeling software around real-world objects
-        
+        User youngerUser = new User();
+
+        youngerUser.name = "Tyrah G";
+        youngerUser.birthDay = LocalDate.parse("1996-01-28");
+
+        System.out.printf("%s was born back in %s", youngerUser.name, youngerUser.birthDay.toString());
 
 
 
