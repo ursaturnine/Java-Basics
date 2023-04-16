@@ -581,8 +581,8 @@ class Main {
 
 
         // Object Oriented Programming - modeling software around real-world objects
-        User youngerUser = new User();
-        User olderUser = new User();
+        User youngerUser = new User("Tyrah", "1996-01-28" );
+        User olderUser = new User("Vanessa", "1994-05-05");
         Book book = new Book();
 
         book.title = "Limitless";
@@ -590,15 +590,17 @@ class Main {
 
         youngerUser.borrow(book);
 
-        olderUser.name = "Vanessa";
-        olderUser.birthDay = LocalDate.parse("1994-05-05");
+        // olderUser.name = "Vanessa";
+        // olderUser.birthDay = LocalDate.parse("1994-05-05");
 
-        youngerUser.name = "Tyrah";
-        youngerUser.birthDay = LocalDate.parse("1996-01-28");
+        // youngerUser.name = "Tyrah";
+        // youngerUser.birthDay = LocalDate.parse("1996-01-28");
 
         System.out.printf("%s was born back in %s and she is now %d years old\n", youngerUser.name, youngerUser.birthDay.toString(), youngerUser.age());
         System.out.printf("%s was born back in %s and she is now %d years old\n", olderUser.name, olderUser.birthDay.toString(), olderUser.age());
         System.out.printf("%s has borrowed these books: %s\n", youngerUser.name, youngerUser.books.toString());
+
+
 
 
 

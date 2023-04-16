@@ -4,9 +4,24 @@ import java.util.ArrayList;
 
 public class User {
     // properties - public == can be accessed outside of User class
-    public String name;
-    public LocalDate birthDay;
+    private String name;
+    private LocalDate birthDay;
     public ArrayList<Book> books = new ArrayList<Book>();
+
+    // constructor
+    User(String name, String birtDay) {
+        this.name = name; 
+        this.birthDay = LocalDate.parse("birthDay");
+    }
+
+    // getters
+    public String getName(){
+        return this.name;
+    }
+
+    public String getBirthDay(){
+        return this.birthDay.toString();
+    }
 
     // calculate age from birth date
     // access level; return type; name of method; 
